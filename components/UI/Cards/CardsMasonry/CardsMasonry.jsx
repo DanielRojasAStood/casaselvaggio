@@ -63,6 +63,7 @@ const CardsMasonry = (props) => {
 								<div className={cx("grid-card")}>
 									<div className={cx("card")}>
 										<Image
+											layout="fill"
 											src={Slide1}
 											width={332}
 											height={400}
@@ -77,6 +78,7 @@ const CardsMasonry = (props) => {
 									</div>
 									<div className={cx("card")}>
 										<Image
+											layout="fill"
 											src={Slide1}
 											width={332}
 											height={400}
@@ -99,8 +101,8 @@ const CardsMasonry = (props) => {
 										</p>
 									</div>
 									<div className="">
-										<Link className="button button--white" href="/">
-											Reservar
+										<Link href="/">
+											<a className="button button--white">Reservar</a>
 										</Link>
 									</div>
 								</div>
@@ -108,6 +110,7 @@ const CardsMasonry = (props) => {
 							<div className={cx("right")}>
 								<div className={cx(["card", "card--medium"])}>
 									<Image
+										layout="fill"
 										src={Slide1}
 										width={332}
 										height={400}
@@ -122,6 +125,7 @@ const CardsMasonry = (props) => {
 								</div>
 								<div className={cx(["card", "card--medium"])}>
 									<Image
+										layout="fill"
 										src={Slide1}
 										width={332}
 										height={400}
@@ -145,6 +149,7 @@ const CardsMasonry = (props) => {
 							<div>
 								<div className={cx("card")}>
 									<Image
+										layout="fill"
 										src={Slide1}
 										width={332}
 										height={400}
@@ -161,6 +166,7 @@ const CardsMasonry = (props) => {
 							<div>
 								<div className={cx("card")}>
 									<Image
+										layout="fill"
 										src={Slide1}
 										width={332}
 										height={400}
@@ -177,6 +183,7 @@ const CardsMasonry = (props) => {
 							<div>
 								<div className={cx("card")}>
 									<Image
+										layout="fill"
 										src={Slide1}
 										width={332}
 										height={400}

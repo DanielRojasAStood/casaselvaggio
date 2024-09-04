@@ -32,12 +32,13 @@ const TextImage = ({ title, text, imageSrc, className, listItems }) => {
 										</div>
 									))}
 							</div>
-							<Link className="button button--primary" href="#">
-								Reservar
+							<Link href="#">
+								<a className="button button--primary">Reservar</a>
 							</Link>
 						</div>
 						<div className={cx("img")}>
 							<Image
+								layout="fill"
 								src={imageSrc}
 								width={332}
 								height={440}

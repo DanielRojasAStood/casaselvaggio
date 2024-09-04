@@ -28,6 +28,7 @@ const CardsGridTwo = () => {
 					<div className={cx("grid")}>
 						<div className={cx("card")}>
 							<Image
+								layout="fill"
 								src={ImageLeft}
 								width={1344}
 								height={951}
@@ -45,6 +46,7 @@ const CardsGridTwo = () => {
 						</div>
 						<div className={cx("card")}>
 							<Image
+								layout="fill"
 								src={ImageLeft}
 								width={1344}
 								height={951}

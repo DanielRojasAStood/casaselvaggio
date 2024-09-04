@@ -37,11 +37,10 @@ export default function Component() {
 				<section className="sectionAcordionTODO">
 					<div className="container">
 						<div className="sectionAcordionTODO__grid">
-							<div>
-								
-							</div>
+							<div></div>
 							<div className="sectionAcordionTODO__img">
 								<Image
+									layout="fill"
 									src={HeroImg}
 									width={1920}
 									height={1253}

@@ -88,6 +88,7 @@ const CardsGridFourCarusel = () => {
 						<div>
 							<div className={cx("card")}>
 								<Image
+									layout="fill"
 									src={Team1}
 									width={240}
 									height={370}
@@ -105,6 +106,7 @@ const CardsGridFourCarusel = () => {
 						<div>
 							<div className={cx("card")}>
 								<Image
+									layout="fill"
 									src={Team1}
 									width={240}
 									height={370}
@@ -122,6 +124,7 @@ const CardsGridFourCarusel = () => {
 						<div>
 							<div className={cx("card")}>
 								<Image
+									layout="fill"
 									src={Team1}
 									width={240}
 									height={370}
@@ -139,6 +142,7 @@ const CardsGridFourCarusel = () => {
 						<div>
 							<div className={cx("card")}>
 								<Image
+									layout="fill"
 									src={Team1}
 									width={240}
 									height={370}

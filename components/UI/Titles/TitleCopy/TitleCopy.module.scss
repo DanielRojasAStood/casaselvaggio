@@ -1,0 +1,11 @@
+@import "../../../../styles/mixin";
+
+.component {
+    padding: 40px 0 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: rem(20);
+}

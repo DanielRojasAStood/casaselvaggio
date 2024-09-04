@@ -1,0 +1,10 @@
+import { IconCheck } from "./IconCheck";
+import { IconChevronDown } from "./IconChevronDown";
+import { IconEnvelope } from "./IconEnvelope";
+export { IconFacebook } from "./IconFacebook";
+export { IconInstagram } from "./IconInstagram";
+export { IconPhone } from "./IconPhone";
+export { IconWaze } from "./IconWaze";
+export { IconWhatsapp } from "./IconWhatsapp";
+export { IconWorld } from "./IconWorld";
+export { IconYoutube } from "./IconYoutube";

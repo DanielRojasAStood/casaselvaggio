@@ -88,12 +88,14 @@ const CardsGridFourCarusel = () => {
 						<div>
 							<div className={cx("card")}>
 								<Image
-									layout="fill"
 									src={Team1}
-									width={240}
-									height={370}
 									quality={100}
+									fill
 									alt=""
+									sizes="100vw"
+									style={{
+										objectFit: "cover",
+									}}
 								/>
 							</div>
 							<div className={cx("name")}>
@@ -106,12 +108,14 @@ const CardsGridFourCarusel = () => {
 						<div>
 							<div className={cx("card")}>
 								<Image
-									layout="fill"
 									src={Team1}
-									width={240}
-									height={370}
 									quality={100}
+									fill
 									alt=""
+									sizes="100vw"
+									style={{
+										objectFit: "cover",
+									}}
 								/>
 							</div>
 							<div className={cx("name")}>
@@ -124,12 +128,14 @@ const CardsGridFourCarusel = () => {
 						<div>
 							<div className={cx("card")}>
 								<Image
-									layout="fill"
 									src={Team1}
-									width={240}
-									height={370}
 									quality={100}
+									fill
 									alt=""
+									sizes="100vw"
+									style={{
+										objectFit: "cover",
+									}}
 								/>
 							</div>
 							<div className={cx("name")}>
@@ -142,12 +148,14 @@ const CardsGridFourCarusel = () => {
 						<div>
 							<div className={cx("card")}>
 								<Image
-									layout="fill"
 									src={Team1}
-									width={240}
-									height={370}
 									quality={100}
+									fill
 									alt=""
+									sizes="100vw"
+									style={{
+										objectFit: "cover",
+									}}
 								/>
 							</div>
 							<div className={cx("name")}>

@@ -23,7 +23,7 @@ const CardsGridThreeCarusel = () => {
 		speed: 500,
 		arrows: false,
 		slidesToShow: 2,
-		slidesToScroll: 2,
+		slidesToScroll: 1,
 		initialSlide: 0,
 		responsive: [
 			{
@@ -87,12 +87,9 @@ const CardsGridThreeCarusel = () => {
 							>
 								<div className={cx("card")}>
 									<Image
-										layout="fill"
 										src={Slide1}
-										width={332}
-										height={440}
 										quality={100}
-										alt=""
+										alt="Imagen"
 									/>
 									<h3 className={cx(["title", "heading--24 color--white"])}>
 										Servicio 01
@@ -100,12 +97,9 @@ const CardsGridThreeCarusel = () => {
 								</div>
 								<div className={cx("card")}>
 									<Image
-										layout="fill"
-										src={Slide2}
-										width={332}
-										height={440}
+										src={Slide1}
 										quality={100}
-										alt=""
+										alt="Imagen"
 									/>
 									<h3 className={cx(["title", "heading--24 color--white"])}>
 										Servicio 02
@@ -113,12 +107,9 @@ const CardsGridThreeCarusel = () => {
 								</div>
 								<div className={cx("card")}>
 									<Image
-										layout="fill"
-										src={Slide3}
-										width={332}
-										height={440}
+										src={Slide1}
 										quality={100}
-										alt=""
+										alt="Imagen"
 									/>
 									<h3 className={cx(["title", "heading--24 color--white"])}>
 										Servicio 03

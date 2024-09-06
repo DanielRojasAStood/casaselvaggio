@@ -63,12 +63,13 @@ const CardsMasonry = (props) => {
 								<div className={cx("grid-card")}>
 									<div className={cx("card")}>
 										<Image
-											layout="fill"
 											src={Slide1}
-											width={332}
-											height={400}
-											quality={100}
-											alt=""
+											fill
+											sizes="100vw"
+											alt
+											style={{
+												objectFit: "cover",
+											}}
 										/>
 										<h3
 											className={cx(["card-title", "heading--20 color--white"])}
@@ -77,13 +78,14 @@ const CardsMasonry = (props) => {
 										</h3>
 									</div>
 									<div className={cx("card")}>
-										<Image
-											layout="fill"
+									<Image
 											src={Slide1}
-											width={332}
-											height={400}
-											quality={100}
-											alt=""
+											fill
+											alt
+											sizes="100vw"
+											style={{
+												objectFit: "cover",
+											}}
 										/>
 										<h3
 											className={cx(["card-title", "heading--20 color--white"])}

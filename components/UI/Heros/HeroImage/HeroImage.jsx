@@ -11,10 +11,8 @@ const HeroImage = () => {
 		<section className={cx(["component"])}>
 			<div className={cx(["bckg"])}>
 				<Image
-					layout="fill"
+					fill
 					src={Hero}
-					width={1920}
-					height={1253}
 					quality={100}
 					alt=""
           style={{

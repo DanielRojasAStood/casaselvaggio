@@ -25,38 +25,24 @@ const CardsBigSmall = () => {
 					</div>
 					<div className={cx("grid")}>
 						<div className={cx("card")}>
-							<Image
-								layout="fill"
-								src={ImageLeft}
-								width={1344}
-								height={951}
-								quality={100}
-								alt=""
-							/>
+							<Image src={ImageLeft} quality={100} alt="Imagen" />
 							<div className={cx(["copy"])}>
 								<h3 className={cx(["heading", "heading--24", "color--white"])}>
 									Casa Selvaggio Habitación 01
 								</h3>
-								<Link href="#">
-									<a className="button button--white">Reservar</a>
+								<Link href="#" className="button button--white">
+									Reservar
 								</Link>
 							</div>
 						</div>
 						<div className={cx("card")}>
-							<Image
-								layout="fill"
-								src={ImageRight}
-								width={624}
-								height={919}
-								quality={100}
-								alt=""
-							/>
+							<Image src={ImageRight} quality={100} alt="Imagen" />
 							<div className={cx(["copy"])}>
 								<h3 className={cx(["heading", "heading--24", "color--white"])}>
 									Casa Selvaggio Habitación 01
 								</h3>
-								<Link href="/">
-									<a className="button button--white">Reservar</a>
+								<Link href="/" className="button button--white">
+									Reservar
 								</Link>
 							</div>
 						</div>

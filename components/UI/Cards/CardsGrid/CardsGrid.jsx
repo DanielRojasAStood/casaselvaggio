@@ -63,12 +63,8 @@ const CardGrid = (props) => {
 					<Slider {...settings}>
 						<div className={cx(["card"])}>
 							<Image
-								layout="fixed"
 								src={Slide1}
-								width={332}
-								height={440}
 								quality={100}
-								alt=""
 							/>
 							<div className={cx(["copy"])}>
 								<h3 className="heading--24 color--white">Vista hotel 01</h3>
@@ -79,12 +75,8 @@ const CardGrid = (props) => {
 						</div>
 						<div className={cx(["card"])}>
 							<Image
-								layout="fixed"
-								src={Slide2}
-								width={332}
-								height={440}
+								src={Slide1}
 								quality={100}
-								alt=""
 							/>
 							<div className={cx(["copy"])}>
 								<h3 className="heading--24 color--white">Vista hotel 01</h3>
@@ -95,12 +87,8 @@ const CardGrid = (props) => {
 						</div>
 						<div className={cx(["card"])}>
 							<Image
-								layout="fixed"
-								src={Slide3}
-								width={332}
-								height={440}
+								src={Slide1}
 								quality={100}
-								alt=""
 							/>
 							<div className={cx(["copy"])}>
 								<h3 className="heading--24 color--white">Vista hotel 01</h3>
@@ -110,11 +98,6 @@ const CardGrid = (props) => {
 							</div>
 						</div>
 					</Slider>
-				</div>
-				<div className="container">
-					<Link href="#">
-						<a className="button button--primary button--center">Reservar</a>
-					</Link>
 				</div>
 			</div>
 		</section>

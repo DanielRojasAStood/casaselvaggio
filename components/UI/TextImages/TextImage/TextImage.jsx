@@ -38,12 +38,14 @@ const TextImage = ({ title, text, imageSrc, className, listItems }) => {
 						</div>
 						<div className={cx("img")}>
 							<Image
-								layout="fill"
 								src={imageSrc}
-								width={332}
-								height={440}
 								quality={100}
 								alt=""
+								fill
+								sizes="100vw"
+								style={{
+									objectFit: "cover",
+								}}
 							/>
 						</div>
 					</div>

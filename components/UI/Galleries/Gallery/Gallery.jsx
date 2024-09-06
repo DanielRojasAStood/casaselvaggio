@@ -84,7 +84,14 @@ const Gallery = () => {
 								key={index}
 								className={cx(["img", `grid-column-${item.gridColumn}`])}
 							>
-								<Image layout="fill" src={item.image} alt="Gallery" />
+								<Image
+									src={item.image}
+									alt="Gallery"
+									fill
+									style={{
+										objectFit: "cover",
+									}}
+								/>
 							</div>
 						))}
 					</div>
